@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Hero } from './hero';
 @Component({
    
     selector: 'my-app',
@@ -26,9 +26,4 @@ onselect(hero: Hero): void {
     this.selectedHero = hero;
 }
 
-}
-
-export class Hero {
-    id:number;
-    name:string;
 }
